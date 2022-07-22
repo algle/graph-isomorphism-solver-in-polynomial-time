@@ -164,7 +164,7 @@ export class Graph {
             if (second[i] == null) {
                 second[i] = 0;
             }
-            var result = Graph.idAndWeightCompare(first[1], second[1])
+            var result = Graph.idAndWeightCompare(first[i], second[i])
             if (result != 0) {
                 return result
             }
